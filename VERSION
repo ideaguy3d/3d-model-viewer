@@ -1,0 +1,81 @@
+commit 1265621d758f3f75bdd3ee073ab8bd485289d117
+Author: Emmett Lalish <elalish@google.com>
+Date:   Mon Jul 22 16:49:00 2019 -0700
+
+    Remove experimental-pmrem flag (#591)
+    
+    * removed pmrem attribute
+    
+    * removed pmrem attribute from non-code files
+    
+    * default environment map now uses PMREM
+    
+    * fixed tests
+    
+    * using PMREM for all cases, fixing #565
+    
+    * increasing sauce timeout to 3min
+    
+    * target caching works
+    
+    * removed extraneous cache, cleaned up generation
+    
+    * added LDR and HDR environment tests
+    
+    * updated goldens
+    
+    * Reuse renderer in tests (#668)
+    
+    * Refactor envmap / skybox generation
+    
+    * default stage light to zero, removed hemisphere light (#674)
+    
+    * Switch environment generation from HalfFloat to RGBE (#670)
+    
+    * generated environment map now RGBM16
+    
+    * switched RGBM16 to RGBE
+    
+    * started gaussianBlur
+    
+    * gaussianBlur compiles
+    
+    * gaussian blur functional
+    
+    * gaussianBlur properly parameterized
+    
+    * target caching works
+    
+    * removed extraneous cache, cleaned up generation
+    
+    * Reuse renderer in tests
+    
+    * switched cubeGenerators
+    
+    * reuse renderer in TextureUtils-spec
+    
+    * addressing feedback
+    
+    * generated environment map now RGBM16
+    
+    * switched RGBM16 to RGBE
+    
+    * started gaussianBlur
+    
+    * gaussianBlur compiles
+    
+    * gaussian blur functional
+    
+    * gaussianBlur properly parameterized
+    
+    * switched cubeGenerators
+    
+    * reuse renderer in TextureUtils-spec
+    
+    * addressing feedback
+    
+    * fixed IE11 shader bug
+    
+    * addressing feedback
+    
+    * Remove accidental render target disposal

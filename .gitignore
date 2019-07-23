@@ -1,0 +1,7 @@
+node_modules/*
+!node_modules/@webcomponents
+!node_modules/focus-visible
+!node_modules/intersection-observer
+!node_modules/@magicleap
+!node_modules/fullscreen-polyfill
+!node_modules/resize-observer-polyfill
